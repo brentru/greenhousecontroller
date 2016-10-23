@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.7.0">
+<eagle version="7.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -8314,7 +8314,6 @@ Grid 5.00 mm&lt;p&gt;
 <part name="CN3" library="adafruit" deviceset="JST_3PIN" device=""/>
 <part name="CN4" library="adafruit" deviceset="JST_3PIN" device=""/>
 <part name="OK1" library="optocoupler" deviceset="PC827" device=""/>
-<part name="GND14" library="supply1" deviceset="GND" device=""/>
 <part name="R2(SMD)" library="adafruit" deviceset="R-US_" device="M0805"/>
 <part name="R1" library="adafruit" deviceset="R-US_" device="M0805"/>
 <part name="R2" library="adafruit" deviceset="R-US_" device="M0805"/>
@@ -8370,8 +8369,8 @@ Grid 5.00 mm&lt;p&gt;
 <instance part="IC3" gate="A1" x="83.82" y="190.5"/>
 <instance part="P+2" gate="1" x="96.52" y="195.58"/>
 <instance part="GND1" gate="1" x="83.82" y="177.8"/>
-<instance part="Y2" gate="G$1" x="162.56" y="129.54" rot="R270"/>
-<instance part="GND2" gate="1" x="152.4" y="124.46"/>
+<instance part="Y2" gate="G$1" x="182.88" y="129.54" rot="R270"/>
+<instance part="GND2" gate="1" x="167.64" y="124.46"/>
 <instance part="GND3" gate="1" x="187.96" y="96.52"/>
 <instance part="C1" gate="G$1" x="101.6" y="185.42"/>
 <instance part="C2" gate="G$1" x="66.04" y="185.42"/>
@@ -8413,7 +8412,6 @@ Grid 5.00 mm&lt;p&gt;
 <instance part="CN3" gate="G$1" x="345.44" y="116.84" rot="MR0"/>
 <instance part="CN4" gate="G$1" x="345.44" y="101.6" rot="MR0"/>
 <instance part="OK1" gate="A" x="76.2" y="259.08" rot="R270"/>
-<instance part="GND14" gate="1" x="170.18" y="157.48" rot="R270"/>
 <instance part="R2(SMD)" gate="G$1" x="187.96" y="165.1" rot="R90"/>
 <instance part="R1" gate="G$1" x="320.04" y="187.96" rot="R90"/>
 <instance part="R2" gate="G$1" x="330.2" y="187.96" rot="R270"/>
@@ -8468,37 +8466,7 @@ Grid 5.00 mm&lt;p&gt;
 <label x="246.38" y="101.6" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="XTAL1" class="0">
-<segment>
-<pinref part="IC1" gate="G$1" pin="PB6(XTAL1/TOSC1)"/>
-<wire x1="190.5" y1="132.08" x2="182.88" y2="132.08" width="0.1524" layer="91"/>
-<label x="182.88" y="132.08" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="Y2" gate="G$1" pin="3"/>
-<wire x1="162.56" y1="127" x2="167.64" y2="127" width="0.1524" layer="91"/>
-<label x="167.64" y="127" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="XTAL2" class="0">
-<segment>
-<pinref part="IC1" gate="G$1" pin="PB7(XTAL2/TOSC2)"/>
-<wire x1="190.5" y1="127" x2="185.42" y2="127" width="0.1524" layer="91"/>
-<label x="185.42" y="127" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="Y2" gate="G$1" pin="1"/>
-<wire x1="162.56" y1="132.08" x2="167.64" y2="132.08" width="0.1524" layer="91"/>
-<label x="165.1" y="132.08" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="GND" class="0">
-<segment>
-<pinref part="Y2" gate="G$1" pin="2"/>
-<pinref part="GND2" gate="1" pin="GND"/>
-<wire x1="154.94" y1="129.54" x2="152.4" y2="129.54" width="0.1524" layer="91"/>
-<wire x1="152.4" y1="129.54" x2="152.4" y2="127" width="0.1524" layer="91"/>
-</segment>
 <segment>
 <pinref part="GND3" gate="1" pin="GND"/>
 <wire x1="187.96" y1="99.06" x2="187.96" y2="101.6" width="0.1524" layer="91"/>
@@ -8575,11 +8543,6 @@ Grid 5.00 mm&lt;p&gt;
 <wire x1="330.2" y1="99.06" x2="322.58" y2="99.06" width="0.2032" layer="91"/>
 </segment>
 <segment>
-<pinref part="C4" gate="G$1" pin="1"/>
-<pinref part="GND14" gate="1" pin="GND"/>
-<wire x1="172.72" y1="157.48" x2="175.26" y2="157.48" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="C3" gate="G$1" pin="2"/>
 <pinref part="GND16" gate="1" pin="GND"/>
 <wire x1="99.06" y1="264.16" x2="99.06" y2="261.62" width="0.2032" layer="91"/>
@@ -8631,6 +8594,12 @@ Grid 5.00 mm&lt;p&gt;
 <wire x1="137.16" y1="213.36" x2="142.24" y2="213.36" width="0.2032" layer="91"/>
 <pinref part="GND23" gate="1" pin="GND"/>
 <wire x1="134.62" y1="210.82" x2="134.62" y2="213.36" width="0.2032" layer="91"/>
+</segment>
+<segment>
+<pinref part="Y2" gate="G$1" pin="2"/>
+<pinref part="GND2" gate="1" pin="GND"/>
+<wire x1="175.26" y1="129.54" x2="167.64" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="129.54" x2="167.64" y2="127" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+5V" class="0">
@@ -8761,10 +8730,6 @@ Grid 5.00 mm&lt;p&gt;
 <wire x1="187.96" y1="160.02" x2="187.96" y2="157.48" width="0.1524" layer="91"/>
 <junction x="187.96" y="157.48"/>
 <pinref part="C4" gate="G$1" pin="2"/>
-<pinref part="ISP1" gate="G$1" pin="RST"/>
-<wire x1="205.74" y1="175.26" x2="190.5" y2="175.26" width="0.1524" layer="91"/>
-<wire x1="190.5" y1="175.26" x2="190.5" y2="157.48" width="0.1524" layer="91"/>
-<junction x="190.5" y="157.48"/>
 <pinref part="R2(SMD)" gate="G$1" pin="1"/>
 </segment>
 </net>
@@ -9070,6 +9035,31 @@ Grid 5.00 mm&lt;p&gt;
 <wire x1="309.88" y1="91.44" x2="401.32" y2="91.44" width="0.2032" layer="91"/>
 <wire x1="309.88" y1="203.2" x2="340.36" y2="203.2" width="0.2032" layer="91"/>
 <wire x1="340.36" y1="203.2" x2="340.36" y2="162.56" width="0.2032" layer="91"/>
+</segment>
+</net>
+<net name="N$11" class="0">
+<segment>
+<pinref part="Y2" gate="G$1" pin="1"/>
+<pinref part="IC1" gate="G$1" pin="PB6(XTAL1/TOSC1)"/>
+<wire x1="182.88" y1="132.08" x2="190.5" y2="132.08" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$16" class="0">
+<segment>
+<pinref part="Y2" gate="G$1" pin="3"/>
+<pinref part="IC1" gate="G$1" pin="PB7(XTAL2/TOSC2)"/>
+<wire x1="182.88" y1="127" x2="190.5" y2="127" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$17" class="0">
+<segment>
+<pinref part="C4" gate="G$1" pin="1"/>
+<wire x1="172.72" y1="157.48" x2="175.26" y2="157.48" width="0.1524" layer="91"/>
+<pinref part="ISP1" gate="G$1" pin="RST"/>
+<wire x1="205.74" y1="175.26" x2="190.5" y2="175.26" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="175.26" x2="190.5" y2="185.42" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="185.42" x2="172.72" y2="185.42" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="185.42" x2="172.72" y2="157.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
