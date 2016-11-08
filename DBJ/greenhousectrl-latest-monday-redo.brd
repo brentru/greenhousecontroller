@@ -2351,8 +2351,8 @@ TS-003</description>
 <attribute name="OC_NEWARK" value="32M1527" x="52.07" y="63.5" size="1.778" layer="27" display="off"/>
 </element>
 <element name="ICSP-PROG-HEADER" library="adafruit" package="AVRISP" value="AVRISP-6" x="31.75" y="29.21" rot="R90"/>
-<element name="J1" library="SparkFun-Connectors" package="POWER_JACK_PTH" value="POWER_JACKPTH" x="6.096" y="53.34">
-<attribute name="PROD_ID" value="CONN-08197" x="6.096" y="53.34" size="1.778" layer="27" display="off"/>
+<element name="J1" library="SparkFun-Connectors" package="POWER_JACK_PTH" value="POWER_JACKPTH" x="7.239" y="69.469" rot="R180">
+<attribute name="PROD_ID" value="CONN-08197" x="7.239" y="69.469" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="J3" library="SparkFun-Connectors" package="SCREWTERMINAL-5MM-3" value="" x="68.58" y="27.94" rot="R90">
 <attribute name="STOREFRONT_ID" value="PRT-08433" x="68.58" y="27.94" size="1.778" layer="27" rot="R90" display="off"/>
@@ -2402,7 +2402,7 @@ TS-003</description>
 <element name="X1" library="IQD-Frequency-Products" package="HC49" value="CRYSTALS-NOGND-HC49" x="11.43" y="34.29"/>
 <element name="C1" library="resistor" package="C0805" value="20pF" x="17.78" y="31.75" rot="R90"/>
 <element name="C2" library="resistor" package="C0805" value="20pF" x="13.97" y="40.64" rot="R90"/>
-<element name="SW2" library="ece388" package="SPST_NO_SMD" value="MOMENTARYBUTTON" x="21.59" y="58.42" rot="R180"/>
+<element name="SW2" library="ece388" package="SPST_NO_SMD" value="MOMENTARYBUTTON" x="22.225" y="58.42" rot="R180"/>
 <element name="K2" library="relay" package="G5LE" value="G5LE" x="54.61" y="31.75" rot="R90">
 <attribute name="OC_FARNELL" value="unknown" x="54.61" y="31.75" size="1.778" layer="27" ratio="15" rot="R90" display="off"/>
 <attribute name="MPN" value="" x="54.61" y="31.75" size="1.778" layer="27" ratio="15" rot="R90" display="off"/>
@@ -2729,7 +2729,7 @@ TS-003</description>
 <wire x1="11.43" y1="49.53" x2="11.43" y2="41.49" width="0.4064" layer="1"/>
 <wire x1="11.43" y1="49.53" x2="13.97" y2="49.53" width="0.4064" layer="1"/>
 <via x="13.97" y="49.53" extent="1-16" drill="0.6" shape="octagon"/>
-<wire x1="13.97" y1="49.53" x2="13.97" y2="66.04" width="0.4064" layer="16"/>
+<wire x1="13.97" y1="49.53" x2="13.97" y2="66.294" width="0.4064" layer="16"/>
 <wire x1="15.24" y1="67.564" x2="40.64" y2="67.564" width="0.4064" layer="16"/>
 <via x="40.64" y="67.564" extent="1-16" drill="0.6" shape="octagon"/>
 <wire x1="40.64" y1="67.564" x2="40.64" y2="65.57" width="0.4064" layer="1"/>
@@ -2743,8 +2743,6 @@ TS-003</description>
 <via x="45.72" y="27.94" extent="1-16" drill="0.6" shape="octagon"/>
 <wire x1="45.72" y1="27.94" x2="44.19" y2="26.41" width="0.4064" layer="1"/>
 <wire x1="44.19" y1="26.41" x2="44.19" y2="25.12" width="0.4064" layer="1"/>
-<wire x1="13.97" y1="66.04" x2="12.7" y2="67.31" width="0.254" layer="16"/>
-<wire x1="12.7" y1="67.31" x2="7.89" y2="67.31" width="0.254" layer="16"/>
 <wire x1="43.65" y1="64.77" x2="45.72" y2="64.77" width="0.254" layer="1"/>
 <wire x1="45.72" y1="64.77" x2="46.99" y2="63.5" width="0.254" layer="1"/>
 <wire x1="40.64" y1="65.57" x2="42.85" y2="65.57" width="0.254" layer="1"/>
@@ -2761,14 +2759,13 @@ TS-003</description>
 <wire x1="56.134" y1="49.53" x2="56.134" y2="50.8" width="0.254" layer="1"/>
 <wire x1="50.927" y1="52.832" x2="47.371" y2="52.832" width="0.254" layer="16"/>
 <wire x1="47.371" y1="52.832" x2="46.99" y2="53.213" width="0.254" layer="16"/>
-<wire x1="7.89" y1="67.31" x2="7.62" y2="67.04" width="0.254" layer="16"/>
-<wire x1="7.62" y1="67.04" x2="6.096" y2="67.04" width="0.254" layer="16"/>
 <wire x1="15.24" y1="67.564" x2="13.97" y2="66.294" width="0.254" layer="16"/>
-<wire x1="13.97" y1="66.294" x2="13.97" y2="66.04" width="0.4064" layer="16"/>
 <wire x1="57.658" y1="48.984" x2="57.112" y2="49.53" width="0.254" layer="1"/>
 <wire x1="57.112" y1="49.53" x2="56.134" y2="49.53" width="0.254" layer="1"/>
 <wire x1="56.134" y1="50.8" x2="55.157" y2="51.777" width="0.254" layer="1"/>
 <wire x1="55.157" y1="51.777" x2="54.864" y2="51.777" width="0.254" layer="1"/>
+<wire x1="11.43" y1="49.53" x2="11.43" y2="51.578" width="0.254" layer="1"/>
+<wire x1="11.43" y1="51.578" x2="7.239" y2="55.769" width="0.254" layer="1"/>
 </signal>
 <signal name="RST">
 <contactref element="IC1" pad="29"/>
@@ -2805,7 +2802,8 @@ TS-003</description>
 <wire x1="35.941" y1="27.94" x2="37.211" y2="29.21" width="0.4064" layer="1"/>
 <wire x1="37.211" y1="35.687" x2="33.528" y2="39.37" width="0.4064" layer="16"/>
 <wire x1="13.97" y1="53.34" x2="13.0556" y2="53.34" width="0.4064" layer="1"/>
-<wire x1="13.0556" y1="53.34" x2="12.4714" y2="53.9242" width="0.4064" layer="1"/>
+<wire x1="13.0556" y1="53.34" x2="13.0556" y2="53.8734" width="0.254" layer="1"/>
+<wire x1="13.0556" y1="53.8734" x2="13.1064" y2="53.9242" width="0.254" layer="1"/>
 </signal>
 <signal name="SCK">
 <contactref element="ICSP-PROG-HEADER" pad="3"/>
