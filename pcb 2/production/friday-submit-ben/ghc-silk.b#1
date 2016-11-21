@@ -2662,7 +2662,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="NAME" x="58.42" y="6.35" size="1.27" layer="25" ratio="17"/>
 <attribute name="VALUE" x="58.42" y="5.08" size="0.4064" layer="27"/>
 </element>
-<element name="U1" library="SparkFun-PowerIC" package="MULTIWATT15_6400BGHEATSINK" value="L298HEATSINK" x="58.42" y="59.69"/>
+<element name="U1" library="SparkFun-PowerIC" package="MULTIWATT15_6400BGHEATSINK" value="L298HEATSINK" x="2.54" y="-27.94"/>
 </elements>
 <signals>
 <signal name="MISO">
