@@ -157,13 +157,9 @@
 <board>
 <plain>
 <wire x1="0" y1="0" x2="73.64" y2="0" width="0" layer="20"/>
-<wire x1="73.64" y1="0" x2="73.64" y2="69.52" width="0" layer="20"/>
-<wire x1="73.64" y1="69.52" x2="0" y2="69.52" width="0" layer="20"/>
-<wire x1="0" y1="69.52" x2="0" y2="0" width="0" layer="20"/>
-<text x="22.86" y="35.56" size="0.4064" layer="21">FTDI</text>
-<text x="36.1213375" y="29.156659375" size="0.4064" layer="21" rot="R90">ICSP</text>
-<text x="45.72" y="24.13" size="0.4064" layer="21" rot="R270">High Voltage </text>
-<text x="52.07" y="19.05" size="0.4064" layer="21">High Voltage </text>
+<wire x1="73.64" y1="0" x2="73.64" y2="70.79" width="0" layer="20"/>
+<wire x1="73.64" y1="70.79" x2="0" y2="70.79" width="0" layer="20"/>
+<wire x1="0" y1="70.79" x2="0" y2="0" width="0" layer="20"/>
 <wire x1="39.37" y1="46.99" x2="31.75" y2="46.99" width="0.254" layer="21"/>
 <wire x1="31.75" y1="46.99" x2="31.75" y2="52.07" width="0.254" layer="21"/>
 <wire x1="31.75" y1="52.07" x2="39.37" y2="52.07" width="0.254" layer="21"/>
@@ -172,52 +168,19 @@
 <wire x1="38.1" y1="50.8" x2="38.1" y2="48.26" width="0.254" layer="21"/>
 <wire x1="38.1" y1="48.26" x2="39.37" y2="48.26" width="0.254" layer="21"/>
 <wire x1="39.37" y1="48.26" x2="39.37" y2="46.99" width="0.254" layer="21"/>
-<text x="33.02" y="49.53" size="1.016" layer="21">opto</text>
-<text x="30.48" y="63.5" size="1.016" layer="21">opto</text>
-<text x="52.351940625" y="28.8798" size="1.524" layer="21">relay</text>
-<text x="72.00138125" y="23.980140625" size="1.143" layer="21" rot="R270">bulb</text>
-<text x="21.854159375" y="7.754615625" size="0.381" layer="21" rot="R180">photoresistor #1</text>
-<text x="23.690578125" y="7.482840625" size="0.381" layer="21">photoresistor #2</text>
-<text x="41.874440625" y="7.3279" size="0.381" layer="21">soil level </text>
-<text x="1.381759375" y="52.19191875" size="0.381" layer="21">lcd</text>
-<text x="72.5932" y="65.3288" size="0.381" layer="21" rot="R90">h-bridge</text>
-<text x="72.2122" y="46.548040625" size="0.381" layer="21" rot="R90">fan</text>
-<text x="72.15631875" y="35.7632" size="0.381" layer="21" rot="R90">water pump</text>
-<text x="53.15711875" y="7.53871875" size="0.381" layer="21">water level</text>
-<text x="34.673540625" y="26.400759375" size="0.381" layer="21" rot="R180">rst</text>
-<text x="31.91001875" y="26.413459375" size="0.381" layer="21" rot="R180">sck</text>
-<text x="28.78581875" y="26.11628125" size="0.381" layer="21">miso</text>
-<text x="33.6931" y="32.00908125" size="0.381" layer="21">gnd</text>
-<text x="28.829" y="32.00908125" size="0.381" layer="21">+5v</text>
-<text x="21.1455" y="35.849559375" size="0.381" layer="21">dtr</text>
-<text x="23.764240625" y="35.81908125" size="0.381" layer="21">rx</text>
-<text x="26.3652" y="35.83431875" size="0.381" layer="21">tx</text>
-<text x="28.829" y="35.83431875" size="0.381" layer="21">+5v</text>
-<text x="33.771840625" y="35.8648" size="0.381" layer="21">gnd</text>
-<text x="20.75941875" y="17.523459375" size="0.381" layer="21" rot="R180">328p</text>
-<text x="1.889759375" y="63.7921" size="0.381" layer="21" rot="R270">power</text>
-<text x="7.366" y="7.493" size="0.381" layer="21">temp sensor</text>
-<text x="49.911" y="36.449" size="1.778" layer="22" rot="MR0">Greenhouse Project
+<text x="33.02" y="49.53" size="1.27" layer="21" ratio="17">opto</text>
+<text x="30.48" y="63.5" size="1.27" layer="21" ratio="17">opto</text>
+<text x="52.351940625" y="33.9598" size="1.27" layer="21" ratio="17">relay</text>
+<text x="72.00138125" y="23.980140625" size="1.27" layer="21" ratio="17" rot="R270">bulb</text>
+<text x="1.381759375" y="52.19191875" size="1.27" layer="21" ratio="17">lcd</text>
+<text x="1.889759375" y="63.7921" size="1.27" layer="21" ratio="17" rot="R270">power</text>
+<text x="49.911" y="36.449" size="1.27" layer="22" ratio="17" rot="MR0">Greenhouse Project
 brent/dave/jarred</text>
-<text x="7.62" y="5.08" size="0.3048" layer="21" font="vector" ratio="15">pd2</text>
-<text x="12.573" y="5.461" size="0.3048" layer="21" font="vector" ratio="15">pc0</text>
-<text x="23.876" y="5.334" size="0.3048" layer="21" font="vector" ratio="15">pc1</text>
-<text x="42.545" y="3.429" size="0.3048" layer="21" font="vector" ratio="15" rot="R90">pc2</text>
-<text x="53.975" y="3.556" size="0.3048" layer="21" font="vector" ratio="15" rot="R90">pc3</text>
-<text x="67.056" y="7.493" size="0.3048" layer="21" font="vector" ratio="15">servo</text>
-<text x="58.674" y="5.334" size="0.3048" layer="21" font="vector" ratio="15">pb1</text>
-<text x="72.39" y="68.58" size="0.3048" layer="22" font="vector" ratio="15" rot="MR0">oshw</text>
-<text x="71.12" y="68.58" size="0.3048" layer="22" font="vector" ratio="15" rot="MR0">&lt;3</text>
-<text x="16.51" y="62.23" size="0.0254" layer="21" font="vector" ratio="15">let there be light</text>
-<text x="15.367" y="64.516" size="0.254" layer="21" font="vector" ratio="15">power</text>
-<text x="15.367" y="62.103" size="0.254" layer="21" font="vector" ratio="15">sck</text>
-<text x="21.082" y="55.626" size="0.254" layer="21" font="vector" ratio="15" rot="R90">rst</text>
-<text x="49.53" y="66.04" size="0.381" layer="21" font="vector" ratio="15" rot="R180">greenhouse</text>
-<text x="49.276" y="65.278" size="0.381" layer="21" font="vector" ratio="15" rot="R180">project</text>
-<text x="49.403" y="64.643" size="0.381" layer="21" font="vector" ratio="15" rot="R180">pcb</text>
-<text x="45.974" y="63.627" size="0.381" layer="21" font="vector" ratio="15" rot="R270">brent</text>
-<text x="46.99" y="63.5" size="0.381" layer="21" font="vector" ratio="15" rot="R270">dave</text>
-<text x="48.26" y="63.5" size="0.381" layer="21" font="vector" ratio="15" rot="R270">jarred</text>
+<text x="72.39" y="68.58" size="1.27" layer="22" font="vector" ratio="17" rot="MR0">oshw</text>
+<text x="71.12" y="68.58" size="1.27" layer="22" font="vector" ratio="17" rot="MR0">&lt;3</text>
+<text x="16.129" y="65.913" size="1.27" layer="21" font="vector" ratio="17">power</text>
+<text x="23.241" y="66.167" size="1.27" layer="21" font="vector" ratio="17" rot="R180">sck</text>
+<text x="19.812" y="53.213" size="1.27" layer="21" font="vector" ratio="17" rot="R180">rst</text>
 <hole x="52.324" y="62.738" drill="0.508"/>
 <hole x="72.39" y="62.992" drill="0.508"/>
 </plain>
@@ -921,10 +884,6 @@ W = angled&lt;p&gt;
 <pad name="6" x="3.81" y="0" drill="0.8128" shape="long" rot="R90"/>
 <pad name="7" x="6.35" y="0" drill="0.8128" shape="long" rot="R90"/>
 <pad name="8" x="8.89" y="0" drill="0.8128" shape="long" rot="R90"/>
-<text x="-6.35" y="1.651" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-9.398" y="1.524" size="1.27" layer="21" ratio="10">1</text>
-<text x="-10.16" y="-2.921" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-<text x="8.382" y="1.524" size="1.27" layer="21" ratio="10">8</text>
 <rectangle x1="-9.017" y1="0.254" x2="-8.763" y2="0.762" layer="51"/>
 <rectangle x1="-9.017" y1="-0.762" x2="-8.763" y2="-0.254" layer="51"/>
 <rectangle x1="-6.477" y1="0.254" x2="-6.223" y2="0.762" layer="51"/>
@@ -2363,134 +2322,286 @@ TS-003</description>
 </pass>
 </autorouter>
 <elements>
-<element name="C3" library="adafruit" package="C0805" value="1.0uF" x="59.563" y="44.831" rot="R270"/>
-<element name="C4" library="adafruit" package="C0805" value="0.1uF" x="19.05" y="46.99" rot="R90"/>
-<element name="C5" library="adafruit" package="C0805" value="1.0uF" x="54.864" y="52.197" rot="R270"/>
-<element name="C6" library="adafruit" package="C0805" value="0.1uF" x="43.18" y="27.94" rot="R180"/>
-<element name="C7" library="adafruit" package="C0805" value="0.1uF" x="41.656" y="35.56" rot="R90"/>
-<element name="D1" library="adafruit" package="SOD-523" value="" x="40.64" y="64.77"/>
-<element name="D10" library="adafruit" package="SOD-323F" value="Zener" x="63.5" y="11.43" rot="R180"/>
-<element name="D11" library="adafruit" package="SOD-523" value="" x="40.64" y="60.96"/>
-<element name="D2" library="adafruit" package="SOD-523" value="" x="53.086" y="44.831"/>
-<element name="D3" library="adafruit" package="SOD-523" value="" x="51.054" y="47.498"/>
-<element name="D4" library="adafruit" package="SOD-523" value="" x="55.118" y="44.831"/>
-<element name="D5" library="adafruit" package="SOD-523" value="" x="53.086" y="48.514"/>
-<element name="D6" library="adafruit" package="SOD-523" value="" x="57.277" y="44.831"/>
-<element name="D7" library="adafruit" package="SOD-523" value="" x="57.658" y="49.784" rot="R180"/>
-<element name="D9" library="adafruit" package="SOD-323F" value="1N4148" x="67.31" y="12.7" rot="R180">
-<attribute name="PROD_ID" value="DIO-08378" x="67.31" y="12.7" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="C3" library="adafruit" package="C0805" value="1.0uF" x="59.563" y="44.831" smashed="yes" rot="R270">
+<attribute name="NAME" x="60.579" y="45.72" size="1.27" layer="25" ratio="17" rot="R270"/>
+<attribute name="VALUE" x="57.277" y="45.72" size="1.27" layer="27" ratio="17" rot="R270"/>
 </element>
-<element name="FTDI-SERIAL-HEADER" library="GeekAmmo" package="06X1-PTH" value="HEADER-06X1-MALE" x="27.94" y="34.29" rot="R180">
+<element name="C4" library="adafruit" package="C0805" value="0.1uF" x="19.05" y="46.99" smashed="yes" rot="R90">
+<attribute name="NAME" x="18.034" y="46.101" size="1.27" layer="25" ratio="17" rot="R90"/>
+<attribute name="VALUE" x="21.336" y="46.101" size="1.27" layer="27" ratio="17" rot="R90"/>
+</element>
+<element name="C5" library="adafruit" package="C0805" value="1.0uF" x="54.864" y="52.197" smashed="yes" rot="R270">
+<attribute name="NAME" x="55.88" y="53.086" size="1.27" layer="25" ratio="17" rot="R270"/>
+<attribute name="VALUE" x="52.578" y="53.086" size="1.27" layer="27" ratio="17" rot="R270"/>
+</element>
+<element name="C6" library="adafruit" package="C0805" value="0.1uF" x="43.18" y="27.94" smashed="yes" rot="R180">
+<attribute name="NAME" x="44.069" y="26.924" size="1.27" layer="25" ratio="17" rot="R180"/>
+<attribute name="VALUE" x="44.069" y="30.226" size="1.27" layer="27" ratio="17" rot="R180"/>
+</element>
+<element name="C7" library="adafruit" package="C0805" value="0.1uF" x="41.656" y="35.56" smashed="yes" rot="R90">
+<attribute name="NAME" x="40.64" y="34.671" size="1.27" layer="25" ratio="17" rot="R90"/>
+<attribute name="VALUE" x="43.942" y="34.671" size="1.27" layer="27" ratio="17" rot="R90"/>
+</element>
+<element name="D1" library="adafruit" package="SOD-523" value="" x="40.64" y="64.77" smashed="yes">
+<attribute name="NAME" x="41.656" y="65.786" size="1.27" layer="25" ratio="17"/>
+<attribute name="VALUE" x="41.656" y="63.246" size="0.4064" layer="27"/>
+</element>
+<element name="D10" library="adafruit" package="SOD-323F" value="Zener" x="63.5" y="11.43" smashed="yes" rot="R180">
+<attribute name="NAME" x="65.3" y="10.53" size="1.27" layer="25" font="vector" ratio="17" rot="R180"/>
+<attribute name="VALUE" x="65.6" y="13.13" size="1.27" layer="27" font="vector" ratio="17" rot="R180"/>
+</element>
+<element name="D11" library="adafruit" package="SOD-523" value="" x="40.64" y="60.96" smashed="yes">
+<attribute name="NAME" x="41.656" y="61.976" size="1.27" layer="25" ratio="17"/>
+<attribute name="VALUE" x="41.656" y="59.436" size="0.4064" layer="27"/>
+</element>
+<element name="D2" library="adafruit" package="SOD-523" value="" x="53.086" y="44.831" smashed="yes">
+<attribute name="NAME" x="54.102" y="45.847" size="1.27" layer="25" ratio="17"/>
+<attribute name="VALUE" x="54.102" y="43.307" size="0.4064" layer="27"/>
+</element>
+<element name="D3" library="adafruit" package="SOD-523" value="" x="51.054" y="47.498" smashed="yes">
+<attribute name="NAME" x="52.07" y="48.514" size="1.27" layer="25" ratio="17"/>
+<attribute name="VALUE" x="52.07" y="45.974" size="0.4064" layer="27"/>
+</element>
+<element name="D4" library="adafruit" package="SOD-523" value="" x="55.118" y="44.831" smashed="yes">
+<attribute name="NAME" x="56.134" y="45.847" size="1.27" layer="25" ratio="17"/>
+<attribute name="VALUE" x="56.134" y="43.307" size="0.4064" layer="27"/>
+</element>
+<element name="D5" library="adafruit" package="SOD-523" value="" x="53.086" y="48.514" smashed="yes">
+<attribute name="NAME" x="54.102" y="49.53" size="1.27" layer="25" ratio="17"/>
+<attribute name="VALUE" x="54.102" y="46.99" size="0.4064" layer="27"/>
+</element>
+<element name="D6" library="adafruit" package="SOD-523" value="" x="57.277" y="44.831" smashed="yes">
+<attribute name="NAME" x="58.293" y="45.847" size="1.27" layer="25" ratio="17"/>
+<attribute name="VALUE" x="58.293" y="43.307" size="0.4064" layer="27"/>
+</element>
+<element name="D7" library="adafruit" package="SOD-523" value="" x="57.658" y="49.784" smashed="yes" rot="R180">
+<attribute name="NAME" x="56.642" y="48.768" size="1.27" layer="25" ratio="17" rot="R180"/>
+<attribute name="VALUE" x="56.642" y="51.308" size="0.4064" layer="27" rot="R180"/>
+</element>
+<element name="D9" library="adafruit" package="SOD-323F" value="1N4148" x="67.31" y="12.7" smashed="yes" rot="R180">
+<attribute name="PROD_ID" value="DIO-08378" x="67.31" y="12.7" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="69.11" y="11.8" size="1.27" layer="25" font="vector" ratio="17" rot="R180"/>
+<attribute name="VALUE" x="69.41" y="14.4" size="1.27" layer="27" font="vector" ratio="17" rot="R180"/>
+</element>
+<element name="FTDI-SERIAL-HEADER" library="GeekAmmo" package="06X1-PTH" value="HEADER-06X1-MALE" x="27.94" y="34.29" smashed="yes" rot="R180">
 <attribute name="ELEMENT14" value="" x="27.94" y="34.29" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OTHER" value="4UCON 00834" x="27.94" y="34.29" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="URL" value="http://www.4uconnector.com/online/SearchPro.asp?FormName=ProSearch&amp;FormAction=search&amp;s_GroupNo=&amp;s_keyword=00834" x="27.94" y="34.29" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DIGIKEY" value="" x="27.94" y="34.29" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="35.56" y="32.639" size="1.27" layer="25" ratio="17" rot="R180"/>
+<attribute name="VALUE" x="35.56" y="37.211" size="1.27" layer="27" ratio="17" rot="R180"/>
 </element>
-<element name="IC1" library="atmega328p" package="TQFP32-08" value="ATMEGA168TQFP-08" x="17.78" y="20.32" rot="R270"/>
-<element name="IC4" library="st-microelectronics" package="MULTIWATT-15" value="L298" x="62.23" y="67.31">
+<element name="IC1" library="atmega328p" package="TQFP32-08" value="ATMEGA168TQFP-08" x="17.78" y="20.32" smashed="yes" rot="R270">
+<attribute name="NAME" x="22.86" y="23.495" size="1.27" layer="25" ratio="17" rot="R270"/>
+<attribute name="VALUE" x="11.43" y="22.86" size="1.27" layer="27" ratio="17" rot="R270"/>
+</element>
+<element name="IC4" library="st-microelectronics" package="MULTIWATT-15" value="L298" x="62.23" y="67.31" smashed="yes">
 <attribute name="MPN" value="L298N" x="62.23" y="67.31" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="" x="62.23" y="67.31" size="1.778" layer="27" display="off"/>
 <attribute name="OC_FARNELL" value="1589425" x="62.23" y="67.31" size="1.778" layer="27" display="off"/>
 <attribute name="OC_NEWARK" value="32M1527" x="62.23" y="67.31" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="53.34" y="54.61" size="1.27" layer="25" ratio="17"/>
+<attribute name="VALUE" x="64.77" y="54.61" size="1.27" layer="27" ratio="17"/>
 </element>
-<element name="ICSP-PROG-HEADER" library="adafruit" package="AVRISP" value="AVRISP-6" x="31.75" y="29.21" rot="R90"/>
-<element name="J1" library="SparkFun-Connectors" package="POWER_JACK_PTH" value="POWER_JACKPTH" x="7.239" y="69.469" rot="R180">
+<element name="ICSP-PROG-HEADER" library="adafruit" package="AVRISP" value="AVRISP-6" x="31.75" y="29.21" smashed="yes" rot="R90">
+<attribute name="NAME" x="34.798" y="26.162" size="1.27" layer="25" ratio="17" rot="R180"/>
+</element>
+<element name="J1" library="SparkFun-Connectors" package="POWER_JACK_PTH" value="POWER_JACKPTH" x="7.239" y="69.469" smashed="yes" rot="R180">
 <attribute name="PROD_ID" value="CONN-08197" x="7.239" y="69.469" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="11.049" y="64.389" size="1.27" layer="25" ratio="17" rot="R180"/>
+<attribute name="VALUE" x="11.049" y="65.659" size="1.27" layer="27" ratio="17" rot="R180"/>
 </element>
-<element name="J3" library="SparkFun-Connectors" package="SCREWTERMINAL-5MM-3" value="" x="68.58" y="17.78" rot="R90">
+<element name="J3" library="SparkFun-Connectors" package="SCREWTERMINAL-5MM-3" value="" x="68.58" y="17.78" smashed="yes" rot="R90">
 <attribute name="STOREFRONT_ID" value="PRT-08433" x="68.58" y="17.78" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PROD_ID" value="CONN-10134" x="68.58" y="17.78" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="66.04" y="16.51" size="1.27" layer="25" ratio="17" rot="R90"/>
+<attribute name="VALUE" x="67.31" y="16.51" size="0.4064" layer="27" rot="R90"/>
 </element>
-<element name="OK1" library="optocoupler" package="DIL6-SMD" value="4N27SM" x="35.56" y="49.53" rot="R180">
+<element name="OK1" library="optocoupler" package="DIL6-SMD" value="4N27SM" x="35.56" y="49.53" smashed="yes" rot="R180">
 <attribute name="MPN" value="4N27S-M" x="35.56" y="49.53" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MF" value="FAIRCHILD SEMICONDUCTOR" x="35.56" y="49.53" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="35.56" y="49.53" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_NEWARK" value="05C3300" x="35.56" y="49.53" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="40.64" y="52.705" size="1.27" layer="25" ratio="17" rot="R270"/>
+<attribute name="VALUE" x="39.37" y="50.165" size="1.27" layer="27" ratio="17" rot="R180"/>
 </element>
-<element name="OK2" library="optocoupler" package="DIL6-SMD" value="4N27SM" x="31.75" y="62.23" rot="R180">
+<element name="OK2" library="optocoupler" package="DIL6-SMD" value="4N27SM" x="31.75" y="62.23" smashed="yes" rot="R180">
 <attribute name="MPN" value="4N27S-M" x="31.75" y="62.23" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MF" value="FAIRCHILD SEMICONDUCTOR" x="31.75" y="62.23" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="31.75" y="62.23" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_NEWARK" value="05C3300" x="31.75" y="62.23" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="36.83" y="65.405" size="1.27" layer="25" ratio="17" rot="R270"/>
+<attribute name="VALUE" x="35.56" y="62.865" size="1.27" layer="27" ratio="17" rot="R180"/>
 </element>
-<element name="Q1" library="SparkFun-DiscreteSemi" package="SOT23-3" value="MMBT2222A" x="60.96" y="8.89" rot="R270">
+<element name="Q1" library="SparkFun-DiscreteSemi" package="SOT23-3" value="MMBT2222A" x="60.96" y="8.89" smashed="yes" rot="R270">
 <attribute name="PROD_ID" value="TRANS-08049" x="60.96" y="8.89" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="62.738" y="9.7155" size="1.27" layer="25" ratio="17" rot="R270"/>
+<attribute name="VALUE" x="60.7695" y="9.906" size="1.27" layer="27" ratio="17" rot="R270"/>
 </element>
-<element name="R1" library="adafruit" package="M0805" value="150" x="20.32" y="63.5"/>
-<element name="R11" library="adafruit" package="M0805" value="240" x="37.465" y="59.817" rot="R270"/>
-<element name="R12" library="adafruit" package="M0805" value="1k" x="29.718" y="46.101" rot="R90"/>
-<element name="R13" library="SparkFun-Resistors" package="0402-RES" value="3k" x="42.164" y="13.208" rot="R90"/>
-<element name="R14" library="adafruit" package="M0805" value="1k" x="39.37" y="31.75" rot="R270"/>
-<element name="R2" library="adafruit" package="M0805" value="150" x="20.32" y="60.96" rot="R180"/>
-<element name="R2(SMD)" library="adafruit" package="M0805" value="10k" x="16.891" y="47.498" rot="R270"/>
-<element name="R3" library="adafruit" package="M0805" value="1k" x="55.88" y="10.16" rot="R180"/>
-<element name="R4" library="adafruit" package="M0805" value="150" x="66.04" y="8.89"/>
-<element name="R5" library="adafruit" package="M0805" value="10k" x="44.831" y="51.308" rot="R270"/>
-<element name="R6" library="adafruit" package="M0805" value="10k" x="61.722" y="44.958" rot="R270"/>
-<element name="R8" library="adafruit" package="M0805" value="240" x="38.1" y="66.04" rot="R270"/>
-<element name="R9" library="adafruit" package="M0805" value="1k" x="25.7" y="59.49" rot="R270"/>
-<element name="X1-MOT1" library="con-wago-500" package="W237-102" value="" x="67.564" y="37.338" rot="R90">
+<element name="R1" library="adafruit" package="M0805" value="150" x="20.32" y="63.5" smashed="yes">
+<attribute name="NAME" x="19.304" y="64.516" size="1.27" layer="25" ratio="17"/>
+<attribute name="VALUE" x="19.304" y="61.214" size="1.27" layer="27" ratio="17"/>
+</element>
+<element name="R11" library="adafruit" package="M0805" value="240" x="37.465" y="59.817" smashed="yes" rot="R270">
+<attribute name="NAME" x="38.481" y="60.833" size="1.27" layer="25" ratio="17" rot="R270"/>
+<attribute name="VALUE" x="35.179" y="60.833" size="1.27" layer="27" ratio="17" rot="R270"/>
+</element>
+<element name="R12" library="adafruit" package="M0805" value="1k" x="29.718" y="46.101" smashed="yes" rot="R90">
+<attribute name="NAME" x="28.702" y="45.085" size="1.27" layer="25" ratio="17" rot="R90"/>
+<attribute name="VALUE" x="32.004" y="45.085" size="1.27" layer="27" ratio="17" rot="R90"/>
+</element>
+<element name="R13" library="SparkFun-Resistors" package="0402-RES" value="3k" x="42.164" y="13.208" smashed="yes" rot="R90">
+<attribute name="NAME" x="41.4655" y="12.319" size="1.27" layer="25" ratio="17" rot="R90"/>
+<attribute name="VALUE" x="43.307" y="12.1285" size="1.27" layer="27" ratio="17" rot="R90"/>
+</element>
+<element name="R14" library="adafruit" package="M0805" value="1k" x="39.37" y="31.75" smashed="yes" rot="R270">
+<attribute name="NAME" x="40.386" y="32.766" size="1.27" layer="25" ratio="17" rot="R270"/>
+<attribute name="VALUE" x="37.084" y="32.766" size="1.27" layer="27" ratio="17" rot="R270"/>
+</element>
+<element name="R2" library="adafruit" package="M0805" value="150" x="20.32" y="60.96" smashed="yes" rot="R180">
+<attribute name="NAME" x="21.336" y="59.944" size="1.27" layer="25" ratio="17" rot="R180"/>
+<attribute name="VALUE" x="21.336" y="63.246" size="1.27" layer="27" ratio="17" rot="R180"/>
+</element>
+<element name="R2(SMD)" library="adafruit" package="M0805" value="10k" x="16.891" y="47.498" smashed="yes" rot="R270">
+<attribute name="NAME" x="17.907" y="48.514" size="1.27" layer="25" ratio="17" rot="R270"/>
+<attribute name="VALUE" x="14.605" y="48.514" size="1.27" layer="27" ratio="17" rot="R270"/>
+</element>
+<element name="R3" library="adafruit" package="M0805" value="1k" x="55.88" y="10.16" smashed="yes" rot="R180">
+<attribute name="NAME" x="56.896" y="9.144" size="1.27" layer="25" ratio="17" rot="R180"/>
+<attribute name="VALUE" x="56.896" y="12.446" size="1.27" layer="27" ratio="17" rot="R180"/>
+</element>
+<element name="R4" library="adafruit" package="M0805" value="150" x="66.04" y="8.89" smashed="yes">
+<attribute name="NAME" x="65.024" y="9.906" size="1.27" layer="25" ratio="17"/>
+<attribute name="VALUE" x="65.024" y="6.604" size="1.27" layer="27" ratio="17"/>
+</element>
+<element name="R5" library="adafruit" package="M0805" value="10k" x="44.831" y="51.308" smashed="yes" rot="R270">
+<attribute name="NAME" x="45.847" y="52.324" size="1.27" layer="25" ratio="17" rot="R270"/>
+<attribute name="VALUE" x="42.545" y="52.324" size="1.27" layer="27" ratio="17" rot="R270"/>
+</element>
+<element name="R6" library="adafruit" package="M0805" value="10k" x="61.722" y="44.958" smashed="yes" rot="R270">
+<attribute name="NAME" x="62.738" y="45.974" size="1.27" layer="25" ratio="17" rot="R270"/>
+<attribute name="VALUE" x="59.436" y="45.974" size="1.27" layer="27" ratio="17" rot="R270"/>
+</element>
+<element name="R8" library="adafruit" package="M0805" value="240" x="38.1" y="66.04" smashed="yes" rot="R270">
+<attribute name="NAME" x="39.116" y="67.056" size="1.27" layer="25" ratio="17" rot="R270"/>
+<attribute name="VALUE" x="35.814" y="67.056" size="1.27" layer="27" ratio="17" rot="R270"/>
+</element>
+<element name="R9" library="adafruit" package="M0805" value="1k" x="25.7" y="59.49" smashed="yes" rot="R270">
+<attribute name="NAME" x="26.716" y="60.506" size="1.27" layer="25" ratio="17" rot="R270"/>
+<attribute name="VALUE" x="23.414" y="60.506" size="1.27" layer="27" ratio="17" rot="R270"/>
+</element>
+<element name="X1-MOT1" library="con-wago-500" package="W237-102" value="" x="67.564" y="37.338" smashed="yes" rot="R90">
 <attribute name="MPN" value="237-102" x="67.564" y="37.338" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="" x="67.564" y="37.338" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="67.564" y="37.338" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="OC_NEWARK" value="70K9898" x="67.564" y="37.338" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="75.184" y="32.298" size="1.27" layer="27" ratio="10" rot="R90"/>
+<attribute name="NAME" x="72.5678" y="33.4918" size="1.27" layer="25" ratio="17" rot="R90"/>
 </element>
-<element name="X2-MOT2" library="con-wago-500" package="W237-102" value="" x="67.564" y="47.498" rot="R90">
+<element name="X2-MOT2" library="con-wago-500" package="W237-102" value="" x="67.564" y="47.498" smashed="yes" rot="R90">
 <attribute name="MPN" value="237-102" x="67.564" y="47.498" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="" x="67.564" y="47.498" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="67.564" y="47.498" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="OC_NEWARK" value="70K9898" x="67.564" y="47.498" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="75.184" y="42.458" size="1.27" layer="27" ratio="10" rot="R90"/>
+<attribute name="NAME" x="72.5678" y="43.6518" size="1.27" layer="25" ratio="17" rot="R90"/>
 </element>
-<element name="X1" library="adafruit" package="HC49UP" value="" x="10.16" y="34.29" rot="R90">
+<element name="X1" library="adafruit" package="HC49UP" value="" x="10.16" y="34.29" smashed="yes" rot="R90">
 <attribute name="OC_NEWARK" value="unknown" x="10.16" y="34.29" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="" x="10.16" y="34.29" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="" x="10.16" y="34.29" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="10.16" y="34.29" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="7.366" y="28.575" size="1.27" layer="25" ratio="17" rot="R90"/>
+<attribute name="VALUE" x="14.351" y="28.575" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="C1" library="resistor" package="C0805" value="20pF" x="17.78" y="39.37" rot="R270"/>
-<element name="C2" library="resistor" package="C0805" value="20pF" x="15.24" y="34.29" rot="R270"/>
-<element name="SW2" library="ece388" package="SPST_NO_SMD" value="MOMENTARYBUTTON" x="22.225" y="58.42" rot="R180"/>
-<element name="K2" library="relay" package="G5LE" value="G5LE" x="54.61" y="26.67" rot="R90">
+<element name="C1" library="resistor" package="C0805" value="20pF" x="17.78" y="39.37" smashed="yes" rot="R270">
+<attribute name="NAME" x="19.05" y="40.64" size="1.27" layer="25" ratio="17" rot="R270"/>
+<attribute name="VALUE" x="15.24" y="40.64" size="1.27" layer="27" ratio="17" rot="R270"/>
+</element>
+<element name="C2" library="resistor" package="C0805" value="20pF" x="15.24" y="34.29" smashed="yes" rot="R270">
+<attribute name="NAME" x="16.51" y="35.56" size="1.27" layer="25" ratio="17" rot="R270"/>
+<attribute name="VALUE" x="12.7" y="35.56" size="1.27" layer="27" ratio="17" rot="R270"/>
+</element>
+<element name="SW2" library="ece388" package="SPST_NO_SMD" value="MOMENTARYBUTTON" x="22.225" y="58.42" smashed="yes" rot="R180">
+<attribute name="NAME" x="19.558" y="56.642" size="1.27" layer="21" ratio="17" rot="R180"/>
+</element>
+<element name="K2" library="relay" package="G5LE" value="G5LE" x="54.61" y="26.67" smashed="yes" rot="R90">
 <attribute name="OC_FARNELL" value="unknown" x="54.61" y="26.67" size="1.778" layer="27" ratio="15" rot="R90" display="off"/>
 <attribute name="MPN" value="" x="54.61" y="26.67" size="1.778" layer="27" ratio="15" rot="R90" display="off"/>
 <attribute name="MF" value="" x="54.61" y="26.67" size="1.778" layer="27" ratio="15" rot="R90" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="54.61" y="26.67" size="1.778" layer="27" ratio="15" rot="R90" display="off"/>
+<attribute name="NAME" x="62.865" y="39.497" size="1.27" layer="25" ratio="17" rot="R180"/>
+<attribute name="VALUE" x="62.23" y="36.195" size="1.27" layer="27" ratio="17" rot="R180"/>
 </element>
-<element name="LED3" library="adafruit" package="CHIP-LED0805" value="" x="16.51" y="63.5" rot="R270"/>
-<element name="LED4" library="adafruit" package="CHIP-LED0805" value="" x="16.51" y="60.96" rot="R270"/>
-<element name="LED5" library="adafruit" package="CHIP-LED0805" value="" x="71.755" y="10.033"/>
-<element name="IC2" library="ece388" package="TO252" value="7805DT" x="41.91" y="20.32" rot="R180"/>
-<element name="J4" library="SparkFun-Connectors" package="SCREWTERMINAL-3.5MM-3_LOCK.007S" value="" x="13.843" y="3.81">
+<element name="LED3" library="adafruit" package="CHIP-LED0805" value="" x="16.51" y="63.5" smashed="yes" rot="R270">
+<attribute name="NAME" x="15.24" y="64.77" size="1.27" layer="25" ratio="17"/>
+<attribute name="VALUE" x="15.24" y="60.96" size="1.27" layer="27"/>
+</element>
+<element name="LED4" library="adafruit" package="CHIP-LED0805" value="" x="16.51" y="60.96" smashed="yes" rot="R270">
+<attribute name="NAME" x="15.24" y="62.23" size="1.27" layer="25" ratio="17"/>
+<attribute name="VALUE" x="15.24" y="58.42" size="1.27" layer="27"/>
+</element>
+<element name="LED5" library="adafruit" package="CHIP-LED0805" value="" x="71.755" y="10.033" smashed="yes">
+<attribute name="NAME" x="70.485" y="8.763" size="1.27" layer="25" ratio="17" rot="R90"/>
+<attribute name="VALUE" x="74.295" y="8.763" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="IC2" library="ece388" package="TO252" value="7805DT" x="41.91" y="20.32" smashed="yes" rot="R180">
+<attribute name="NAME" x="45.72" y="22.86" size="1.27" layer="25" ratio="17" rot="R270"/>
+<attribute name="VALUE" x="36.83" y="22.86" size="1.27" layer="27" ratio="17" rot="R270"/>
+</element>
+<element name="J4" library="SparkFun-Connectors" package="SCREWTERMINAL-3.5MM-3_LOCK.007S" value="" x="13.843" y="3.81" smashed="yes">
 <attribute name="PROD_ID" value="CONN-08288" x="13.843" y="3.81" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="NAME" x="12.573" y="6.35" size="1.27" layer="25" ratio="17"/>
+<attribute name="VALUE" x="12.573" y="5.08" size="0.4064" layer="27"/>
 </element>
-<element name="J5" library="SparkFun-Connectors" package="SCREWTERMINAL-3.5MM-3_LOCK.007S" value="" x="25.4" y="3.81">
+<element name="J5" library="SparkFun-Connectors" package="SCREWTERMINAL-3.5MM-3_LOCK.007S" value="" x="25.4" y="3.81" smashed="yes">
 <attribute name="PROD_ID" value="CONN-08288" x="25.4" y="3.81" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="NAME" x="24.13" y="6.35" size="1.27" layer="25" ratio="17"/>
+<attribute name="VALUE" x="24.13" y="5.08" size="0.4064" layer="27"/>
 </element>
-<element name="J6" library="SparkFun-Connectors" package="SCREWTERMINAL-3.5MM-3_LOCK.007S" value="" x="36.83" y="3.81">
+<element name="J6" library="SparkFun-Connectors" package="SCREWTERMINAL-3.5MM-3_LOCK.007S" value="" x="36.83" y="3.81" smashed="yes">
 <attribute name="PROD_ID" value="CONN-08288" x="36.83" y="3.81" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="NAME" x="35.56" y="6.35" size="1.27" layer="25" ratio="17"/>
+<attribute name="VALUE" x="35.56" y="5.08" size="0.4064" layer="27"/>
 </element>
-<element name="J7" library="SparkFun-Connectors" package="SCREWTERMINAL-3.5MM-3_LOCK.007S" value="" x="48.26" y="3.81">
+<element name="J7" library="SparkFun-Connectors" package="SCREWTERMINAL-3.5MM-3_LOCK.007S" value="" x="48.26" y="3.81" smashed="yes">
 <attribute name="PROD_ID" value="CONN-08288" x="48.26" y="3.81" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="NAME" x="46.99" y="6.35" size="1.27" layer="25" ratio="17"/>
+<attribute name="VALUE" x="46.99" y="5.08" size="0.4064" layer="27"/>
 </element>
-<element name="R7" library="adafruit" package="M0805" value="1k" x="29.845" y="53.213" rot="R270"/>
-<element name="R15" library="adafruit" package="M0805" value="1k" x="31.75" y="41.91" rot="R180"/>
-<element name="SV2" library="con-lsta" package="FE08" value="" x="2.54" y="41.91" rot="R90">
+<element name="R7" library="adafruit" package="M0805" value="1k" x="29.845" y="53.213" smashed="yes" rot="R270">
+<attribute name="NAME" x="30.861" y="54.229" size="1.27" layer="25" ratio="17" rot="R270"/>
+<attribute name="VALUE" x="27.559" y="54.229" size="1.27" layer="27" ratio="17" rot="R270"/>
+</element>
+<element name="R15" library="adafruit" package="M0805" value="1k" x="31.75" y="41.91" smashed="yes" rot="R180">
+<attribute name="NAME" x="32.766" y="40.894" size="1.27" layer="25" ratio="17" rot="R180"/>
+<attribute name="VALUE" x="32.766" y="44.196" size="1.27" layer="27" ratio="17" rot="R180"/>
+</element>
+<element name="SV2" library="con-lsta" package="FE08" value="" x="2.54" y="41.91" smashed="yes" rot="R90">
 <attribute name="MPN" value="" x="2.54" y="41.91" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="2.54" y="41.91" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="2.54" y="41.91" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
 <attribute name="MF" value="" x="2.54" y="41.91" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
+<attribute name="NAME" x="0.889" y="35.56" size="1.27" layer="25" ratio="17" rot="R90"/>
+<attribute name="VALUE" x="5.461" y="31.75" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="SV3" library="con-lsta" package="FE08" value="" x="2.54" y="21.59" rot="R90">
+<element name="SV3" library="con-lsta" package="FE08" value="" x="2.54" y="21.59" smashed="yes" rot="R90">
 <attribute name="MPN" value="" x="2.54" y="21.59" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="2.54" y="21.59" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="2.54" y="21.59" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
 <attribute name="MF" value="" x="2.54" y="21.59" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
+<attribute name="NAME" x="0.889" y="15.24" size="1.27" layer="25" ratio="17" rot="R90"/>
+<attribute name="VALUE" x="5.461" y="11.43" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="J2" library="SparkFun-Connectors" package="SCREWTERMINAL-3.5MM-3_LOCK.007S" value="" x="2.4638" y="3.81">
+<element name="J2" library="SparkFun-Connectors" package="SCREWTERMINAL-3.5MM-3_LOCK.007S" value="" x="2.4638" y="3.81" smashed="yes">
 <attribute name="PROD_ID" value="CONN-08288" x="2.4638" y="3.81" size="0.381" layer="27" display="off"/>
+<attribute name="NAME" x="1.1938" y="6.35" size="1.27" layer="25" ratio="17"/>
+<attribute name="VALUE" x="1.1938" y="5.08" size="0.4064" layer="27"/>
 </element>
-<element name="J8" library="SparkFun-Connectors" package="SCREWTERMINAL-3.5MM-3_LOCK.007S" value="" x="59.69" y="3.81">
+<element name="J8" library="SparkFun-Connectors" package="SCREWTERMINAL-3.5MM-3_LOCK.007S" value="" x="59.69" y="3.81" smashed="yes">
 <attribute name="PROD_ID" value="CONN-08288" x="59.69" y="3.81" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="NAME" x="58.42" y="6.35" size="1.27" layer="25" ratio="17"/>
+<attribute name="VALUE" x="58.42" y="5.08" size="0.4064" layer="27"/>
 </element>
 </elements>
 <signals>
@@ -2576,7 +2687,7 @@ TS-003</description>
 <wire x1="54.61" y1="48.26" x2="54.61" y2="49.53" width="0.4064" layer="1"/>
 <wire x1="54.61" y1="48.26" x2="54.61" y2="46.99" width="0.4064" layer="16"/>
 <wire x1="54.61" y1="46.99" x2="52.07" y2="44.45" width="0.4064" layer="16"/>
-<via x="63.5" y="13.97" extent="1-16" drill="0.508" shape="octagon"/>
+<via x="58.42" y="13.97" extent="1-16" drill="0.508" shape="octagon"/>
 <polygon width="0.4064" layer="16" isolate="0.3048">
 <vertex x="0" y="69.85"/>
 <vertex x="73.66" y="69.85"/>
@@ -3277,16 +3388,15 @@ TS-003</description>
 <contactref element="D9" pad="C"/>
 <contactref element="K2" pad="1"/>
 <contactref element="LED5" pad="C"/>
-<wire x1="62.23" y1="17.78" x2="62.23" y2="18.796" width="0.4064" layer="1"/>
-<wire x1="62.23" y1="18.796" x2="60.579" y2="19.177" width="0.4064" layer="1"/>
-<wire x1="62.23" y1="17.78" x2="66.31" y2="13.7" width="0.4064" layer="1"/>
-<wire x1="66.31" y1="13.7" x2="66.31" y2="12.7" width="0.4064" layer="1"/>
-<wire x1="71.755" y1="11.083" x2="71.755" y2="12.065" width="0.4064" layer="1"/>
-<wire x1="71.755" y1="12.065" x2="71.12" y2="12.7" width="0.4064" layer="1"/>
-<wire x1="71.12" y1="12.7" x2="70.231" y2="12.7" width="0.4064" layer="1"/>
-<wire x1="70.231" y1="12.7" x2="69.215" y2="13.716" width="0.4064" layer="1"/>
-<wire x1="69.215" y1="13.716" x2="66.326" y2="13.716" width="0.4064" layer="1"/>
-<wire x1="66.326" y1="13.716" x2="66.31" y2="13.7" width="0.4064" layer="1"/>
+<wire x1="60.579" y1="19.177" x2="60.579" y2="18.431" width="0.4064" layer="1"/>
+<wire x1="60.579" y1="18.431" x2="60.96" y2="13.97" width="0.4064" layer="1"/>
+<wire x1="60.96" y1="13.97" x2="62.23" y2="12.7" width="0.4064" layer="1"/>
+<wire x1="62.23" y1="12.7" x2="66.31" y2="12.7" width="0.4064" layer="1"/>
+<wire x1="66.31" y1="12.7" x2="66.31" y2="14.24" width="0.4064" layer="1"/>
+<wire x1="66.31" y1="14.24" x2="67.31" y2="15.24" width="0.4064" layer="1"/>
+<wire x1="67.31" y1="15.24" x2="71.12" y2="15.24" width="0.4064" layer="1"/>
+<wire x1="71.12" y1="15.24" x2="71.755" y2="14.605" width="0.4064" layer="1"/>
+<wire x1="71.755" y1="14.605" x2="71.755" y2="11.083" width="0.4064" layer="1"/>
 </signal>
 <signal name="N$6">
 <contactref element="Q1" pad="1"/>

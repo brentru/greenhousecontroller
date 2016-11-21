@@ -10668,10 +10668,6 @@ W = angled&lt;p&gt;
 <pad name="6" x="3.81" y="0" drill="0.8128" shape="long" rot="R90"/>
 <pad name="7" x="6.35" y="0" drill="0.8128" shape="long" rot="R90"/>
 <pad name="8" x="8.89" y="0" drill="0.8128" shape="long" rot="R90"/>
-<text x="-6.35" y="1.651" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-9.398" y="1.524" size="1.27" layer="21" ratio="10">1</text>
-<text x="-10.16" y="-2.921" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-<text x="8.382" y="1.524" size="1.27" layer="21" ratio="10">8</text>
 <rectangle x1="-9.017" y1="0.254" x2="-8.763" y2="0.762" layer="51"/>
 <rectangle x1="-9.017" y1="-0.762" x2="-8.763" y2="-0.254" layer="51"/>
 <rectangle x1="-6.477" y1="0.254" x2="-6.223" y2="0.762" layer="51"/>

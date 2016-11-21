@@ -16848,9 +16848,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </net>
 <net name="COMMON" class="0">
 <segment>
-<label x="91.44" y="147.32" size="1.778" layer="95" rot="R180"/>
+<label x="93.98" y="154.94" size="1.778" layer="95" rot="R180"/>
 <pinref part="J3" gate="J$1" pin="1"/>
-<wire x1="93.98" y1="147.32" x2="96.52" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="154.94" x2="96.52" y2="152.4" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="K2" gate="2" pin="P"/>
