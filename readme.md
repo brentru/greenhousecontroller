@@ -1,18 +1,18 @@
 # Greenhouse Control System
+##  Project for ECE388
 
 ----
 ## Hardware
 
-Greenboard: Control board for small-scale greenhouse control. 
-ATMEL328P
+Greenboard: Control board for small-scale greenhouse control running off an ATMEGA328P.
 
 ----
 ## Software
-Production: FreeRTOS + AVR-C
+Production: ATMEL Studio 7
 Proto: Arduino 
 
 ----
 ## thanks
-* David Austin
-* Jarred Trottier
-* Brent Rubell
+* David A.
+* Jarred T.
+* Brent R.
