@@ -38,7 +38,24 @@ volatile int pump = 0;
 volatile int light = 0;
 volatile int servo = 0;
 volatile int fan = 0;
-
+main()
+{
+	/*	init system	*/
+	initRelay();
+	initMainLCD();
+	initHbridge();
+	initServo();
+	initADC();
+	/*	pre-run setups */
+	custSetup();
+	LCDSetup();
+	/*	realtime loop	*/
+	while(1)
+	{
+		temp_light();
+		checkSoil();
+	}
+}
 void initRelay()
 {
 	//	set as output
@@ -64,7 +81,7 @@ void initHbridge()
 	DDRD |= (11101000); 
 }
 
-void initServo();
+void initServo()
 {
 	////Servo
 	DDRB |= (1<<DDB1);
@@ -129,24 +146,6 @@ void LCDSetup(){
 	Lcd4_Write_String("Error:");
 }
 
-main()
-{
-	/*	init system	*/
-	initRelay();
-	initMainLCD();
-	initHbridge();
-	initServo();
-	initADC();
-	/*	pre-run setups */
-	custSetup();
-	LCDSetup();
-	/*	realtime loop	*/
-	while(1)
-	{
-		temp_light();
-		checkSoil();
-	}
-}
 void temp_light()
 {
 	//get photoresistor value
@@ -270,7 +269,64 @@ void temp_light()
 			
 		}
 	}
+		else //not bright or dark: in the middle
+		{
+		//Lcd4_Set_Cursor(2,2);
+		//Lcd4_Write_String("                  ");
+		//Lcd4_Set_Cursor(2,2);
+		//Lcd4_Write_String("Bright <350");
+		/*Check temperature*/
+		//	get DHT data
+		dht_gettemperature(&temp);
+		/*Display temp*/
+		Lcd4_Set_Cursor(1,10);
+		itoa(temp,buf2,10);
+		Lcd4_Write_String(buf2);
+
+		if(temp >= temp_high)
+		{
+			lightOff();
+			turnOnFan();
+			//ZeroDegree();
+			Lcd4_Set_Cursor(3,7);
+			Lcd4_Write_String("             ");
+			Lcd4_Set_Cursor(3,7);
+			Lcd4_Write_String("lF,sF,fO"); //print actuators to action line
+		}
+		else if(temp < temp_low)
+		{
+			lightOn();
+			turnOffFan();
+			EightyDegree();
+			Lcd4_Set_Cursor(3,7);
+			Lcd4_Write_String("             ");
+			Lcd4_Set_Cursor(3,7);
+			Lcd4_Write_String("lO,sO,fF");  //print actuators to action line
+		}
+		else
+		{
+			//Lcd4_Set_Cursor(2,2);
+			//Lcd4_Write_String("                  ");
+			//Lcd4_Set_Cursor(2,2);
+			//Lcd4_Write_String("Norm 350<L<450");
+			/*Check temperature*/
+			//	get DHT data
+			dht_gettemperature(&temp);
+			/*Display temp*/
+			Lcd4_Set_Cursor(1,10);
+			itoa(temp,buf2,10);
+			Lcd4_Write_String(buf2);
+			lightOff();
+			turnOffFan();
+			//ZeroDegree();
+			Lcd4_Set_Cursor(3,7);
+			Lcd4_Write_String("             ");
+			Lcd4_Set_Cursor(3,7);
+			Lcd4_Write_String("lF,fF"); //print actuators to action line
+		}
+	}
 }
+
 
 void checkSoil()
 {
@@ -356,6 +412,7 @@ void checkSoil()
 				Lcd4_Write_String("pF");	
 		}
 	
+	
 		else if(soillvl<=SOIL_LOW && soillvl<=SOIL_MAX)
 		{
 		        turnOffPump();
@@ -367,6 +424,8 @@ void checkSoil()
 				Lcd4_Write_String("pF");			
 		}
 }
+
+
 	
 
 	
